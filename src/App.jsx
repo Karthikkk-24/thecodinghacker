@@ -1,14 +1,22 @@
 import { useState } from "react";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./App.css";
-import reactLogo from "./assets/react.svg";
+import NameCard from "./components/NameCard";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
+  //   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <Navbar />
+      <Router>
+        <Switch>
+          <Navbar />
+          <Route exact path="/">
+            <NameCard />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
