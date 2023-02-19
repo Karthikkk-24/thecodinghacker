@@ -11,10 +11,14 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Navbar />
-          <Route exact path="/">
-            <NameCard />
-          </Route>
+          <div className="main_container">
+            <Navbar />
+            <Route exact path="/">
+              <div className="content">
+                <NameCard />
+              </div>
+            </Route>
+          </div>
         </Switch>
       </Router>
     </div>
