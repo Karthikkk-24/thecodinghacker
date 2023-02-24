@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import "./App.css";
+import CardPage from "./components/CardPage";
 import NameCard from "./components/NameCard";
 import Navbar from "./components/Navbar";
 
@@ -18,6 +19,13 @@ function App() {
                 <NameCard />
               </div>
             </Route>
+            <Route exact path="/shop">
+              <div className="container">
+                <CardPage />
+              </div>
+            </Route>
+            <Route exact path="/blogs"></Route>
+            <Route exact path="/projects"></Route>
           </div>
         </Switch>
       </Router>
