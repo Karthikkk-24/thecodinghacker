@@ -240,7 +240,7 @@ img {
   font-size: 1.8rem;
 }
 
-.shopcustomcard {
+.comingSoonCard {
   height: 20rem;
   width: 100%;
   background: rgb(5, 6, 45);
@@ -256,7 +256,7 @@ img {
   justify-content: center;
 }
 
-.shopcustomcard::before {
+.comingSoonCard::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -270,7 +270,7 @@ img {
   transition: all 0.2s linear;
 }
 
-.shopcustomcard::after {
+.comingSoonCard::after {
   content: "";
   position: absolute;
   background: rgb(5, 6, 45);
@@ -278,10 +278,21 @@ img {
   border-radius: 20px;
 }
 
-.shopcustomcard > * {
+.comingSoonCard > * {
   z-index: 1;
 }
 
-.shopcustomcard h1 {
+.comingSoonCard h1 {
   font-size: 100px;
+}
+
+.itemcard {
+  height: 20rem;
+  width: 23rem;
+  border: 3px solid rgb(255, 48, 255);
+}
+
+.itemcard > * {
+  z-index: 1;
+  color: #00ddeb;
 }

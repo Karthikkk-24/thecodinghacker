@@ -24,8 +24,16 @@ function App() {
                 <CardPage />
               </div>
             </Route>
-            <Route exact path="/blogs"></Route>
-            <Route exact path="/projects"></Route>
+            <Route exact path="/blogs">
+              <div className="container">
+                <CardPage />
+              </div>
+            </Route>
+            <Route exact path="/projects">
+              <div className="container">
+                <CardPage />
+              </div>
+            </Route>
           </div>
         </Switch>
       </Router>
