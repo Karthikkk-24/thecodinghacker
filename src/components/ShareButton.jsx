@@ -8,10 +8,10 @@ export default function ShareButton() {
         <i className="fa-brands fa-linkedin"></i>
       </button>
       <button className="share">
-        Instagram&nbsp;<i class="fa-brands fa-square-instagram"></i>
+        Instagram&nbsp;<i className="fa-brands fa-square-instagram"></i>
       </button>
       <button className="share">
-        Twitter&nbsp;<i class="fa-brands fa-square-twitter"></i>
+        Twitter&nbsp;<i className="fa-brands fa-square-twitter"></i>
       </button>
     </div>
   );
