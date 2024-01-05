@@ -19,6 +19,7 @@ function App() {
       </div>
       <div className="content_container">
         <div className="main_container"></div>
+        <div className="curve_background"></div>
       </div>
       <div className="footer_container">
         <div className="main_container">
