@@ -14,3 +14,34 @@ h3.sub_heading {
     font-size: 2.5vh;
     text-transform: capitalize;
 }
+
+.custom_btn {
+    width: auto;
+    height: auto;
+    background: var(--main);
+    color: var(--black);
+    border: 0.2vh solid lightgray;
+    font-size: 2.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1.5vh 5.5vh;
+    text-transform: capitalize;
+    transition: 0.3s all ease-in-out;
+}
+
+.custom_btn:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
