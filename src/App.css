@@ -55,7 +55,7 @@ body {
 }
 
 .content_container {
-    height: 80vh;
+    height: 110vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,32 @@ body {
     height: 90%;
     width: 100%;
     background: var(--background);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
+
+.content_container .main_container .left {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.content_container .main_container .right {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
 
 .content_container .curve_background {
     height: 10%;

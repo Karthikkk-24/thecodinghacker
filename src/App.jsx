@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
+import "./assets/css/General.css";
 import CardPage from "./components/CardPage";
 import NameCard from "./components/NameCard";
 import Navbar from "./components/Navbar";
@@ -18,7 +19,15 @@ function App() {
         </div>
       </div>
       <div className="content_container">
-        <div className="main_container"></div>
+        <div className="main_container">
+            <div className="left">
+                <h1 className="heading">I turn ideas into reality</h1>
+                <h3 className="sub_heading">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta est ipsum recusandae impedit quaerat quidem suscipit debitis 
+                </h3>
+            </div>
+            <div className="right"></div>
+        </div>
         <div className="curve_background"></div>
       </div>
       <div className="footer_container">
