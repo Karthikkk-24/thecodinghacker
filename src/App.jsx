@@ -12,11 +12,7 @@ function App() {
   return (
     <div className="App">
       <div className="navbar_container">
-        <div className="main_container">
-            <div className="section section1"></div>
-            <div className="section section2"></div>
-            <div className="section section3"></div>
-        </div>
+        <Navbar />
       </div>
       <div className="content_container">
         <div className="main_container">
