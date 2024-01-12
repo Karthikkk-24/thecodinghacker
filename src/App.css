@@ -4,6 +4,7 @@
   --main: #bff500;
   --background: #161616;
   --white: white;
+  --gray: #252525;
 }
 
 * {
@@ -103,6 +104,39 @@ body {
     align-items: center;
     justify-content: center;
     background: var(--white);
+    position: relative;
+}
+
+.rectangle {
+    position: absolute;
+    height: auto;
+    background: var(--gray);
+    padding: 1vw;
+}
+
+.rectangle1 {
+    right: 10%;
+    top: 15vh;
+    width: 14vw;
+    transform: rotate(-10deg);
+    transition: 0.3s all ease-in-out;
+}
+
+.rectangle1:hover {
+    z-index: 3;
+    transform: rotate(0deg);
+}
+
+.rectangle2 {
+    right: 24%;
+    top: 20vh;
+    width: 20vw;
+    transform: rotate(10deg);
+    transition: 0.3s all ease-in-out;
+}
+
+.rectangle2:hover {
+    transform: rotate(0deg);
 }
 
 .content_container .main_container {

@@ -25,6 +25,12 @@ function App() {
               <i class="fa-solid fa-arrow-right-long"></i>
             </button>
           </div>
+          <div className="rectangle rectangle1">
+            <img src="/images/Photo.jpg" alt="" />
+          </div>
+          <div className="rectangle rectangle2">
+            <img src="/images/Photo2.jpg" alt="" />
+          </div>
           <div className="right"></div>
         </div>
         <div className="curve_background"></div>
