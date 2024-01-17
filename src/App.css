@@ -7,6 +7,11 @@
   --gray: #252525;
 }
 
+::selection {
+  color: var(--background);
+  background: var(--main);
+}
+
 * {
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
