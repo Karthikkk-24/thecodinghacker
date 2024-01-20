@@ -124,7 +124,7 @@ body {
     top: 15vh;
     width: 14vw;
     transform: rotate(-10deg);
-    transition: 0.3s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 
 .rectangle1:hover {
@@ -137,7 +137,7 @@ body {
     top: 20vh;
     width: 20vw;
     transform: rotate(10deg);
-    transition: 0.3s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 
 .rectangle2:hover {
