@@ -331,7 +331,15 @@ input {
 
 .programming_container .container {
   width: 100%;
-  height: 90vh;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 18%);
+  gap: 2%;
+}
+
+.programming_container .shorts_container {
+  width: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(5, 18%);
   gap: 2%;
@@ -350,9 +358,47 @@ input {
   overflow: hidden;
 }
 
+.programming_container .shorts_container .shorts_div {
+  width: 100%;
+  gap: 2%;
+  height: 45vh;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
 .programming_container .container .card_div .card_img {
   width: 100%;
   height: 60%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+}
+
+.programming_container .shorts_container .shorts_div .card_img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+}
+
+.programming_container .container .card_div .card_img {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 12px;
@@ -386,6 +432,27 @@ input {
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
+}
+
+.shorts_profile_section {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20%;
+  display: flex;
+  padding: 0.6rem 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.shorts_profile_section .card_info {
+  align-items: flex-start;
+}
+
+.shorts_profile_section .card_info .card_desc {
+  font-size: 1.5vh;
 }
 
 .programming_container .container .card_div .card_title {
@@ -456,6 +523,13 @@ input {
   aspect-ratio: 1/1;
 }
 
+.shorts_profile_section .card_profile img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+
 .card_info {
   width: 100%;
   display: flex;
@@ -485,5 +559,9 @@ input {
 @media screen and (max-width: 1700px) {
   .programming_container .container {
     grid-template-columns: repeat(4, 23%);
+  }
+
+  .programming_container .shorts_container {
+    grid-template-columns: repeat(5, 1fr);
   }
 }

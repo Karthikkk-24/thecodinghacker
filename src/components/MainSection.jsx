@@ -1,5 +1,6 @@
 import "../../src/App.css";
 import Card from "../../src/components/Card";
+import ShortsCard from "../../src/components/ShortsCard";
 export default function MainSection() {
   return (
     <>
@@ -83,7 +84,7 @@ export default function MainSection() {
           <div className="content_header_icon">
             <i className="fa-solid fa-list-check"></i>
           </div>
-          <div className="content_header_name">Projects</div>
+          <div className="content_header_name">Videos</div>
         </div>
       </div>
       <div className="container">
@@ -110,6 +111,59 @@ export default function MainSection() {
         <Card
           image="../src/assets/programming_language/node.png"
           title="Weather Application"
+        />
+      </div>
+      <div className="content_divider">
+        <div className="content_divider_line"></div>
+        <div className="content_header">
+          <div className="content_header_icon">
+            <i className="fa-solid fa-list-check"></i>
+          </div>
+          <div className="content_header_name">Shorts</div>
+        </div>
+      </div>
+      <div className="shorts_container">
+        <ShortsCard
+          image="../src/assets/programming_language/js.png"
+          title="JavaScript"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/react.png"
+          title="React"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/html.png"
+          title="HTML"
+        />
+        <ShortsCard image="../src/assets/programming_language/css.png" title="CSS" />
+        <ShortsCard image="../src/assets/programming_language/php.png" title="PHP" />
+        <ShortsCard
+          image="../src/assets/programming_language/node.png"
+          title="Node"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/express.png"
+          title="Express"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/mysql.png"
+          title="MySQL"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/python.png"
+          title="Python"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/java.png"
+          title="Java"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/bash.png"
+          title="Bash"
+        />
+        <ShortsCard
+          image="../src/assets/programming_language/github.png"
+          title="GitHub"
         />
       </div>
       <div className="content_divider">
